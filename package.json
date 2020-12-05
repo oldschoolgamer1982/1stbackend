@@ -2,8 +2,10 @@
   "name": "1stbackend",
   "version": "1.0.0",
   "description": "my first api",
-  "main": "src/index.js",
+  "main": "src/serve.js",
   "scripts": {
+    
+    "start": "nodemon src/serve.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/oldschoolgamer1982/1stbackend/issues"
   },
-  "homepage": "https://github.com/oldschoolgamer1982/1stbackend#readme"
+  "homepage": "https://github.com/oldschoolgamer1982/1stbackend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
