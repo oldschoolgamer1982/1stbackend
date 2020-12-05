@@ -11,7 +11,7 @@
     "url": "git+https://github.com/oldschoolgamer1982/1stbackend.git"
   },
   "keywords": [
-    "node"
+    "node nodemon"
   ],
   "author": "OSG",
   "license": "ISC",
