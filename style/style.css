@@ -1,0 +1,16 @@
+header {
+    background-color: black;
+}
+body {background-color: rgb(39, 36, 177) ;
+    color: white;
+    font: normal 15pt Arial;
+}
+div#area {
+    height: 520px;
+}
+footer {
+    background-color: white;
+    color: black;
+    font: normal 10pt Impact;
+    text-align: center;
+        }

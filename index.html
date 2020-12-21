@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        
+            <div id = 'htxt'></div>
+        
+    </header> 
+    <div id = 'area'>
+    <p>Nascimento: <input type="date" name="nasc" id="nasc"> </p>
+    <p>Sexo: <input type="radio" name="radsex" id="masc" checked>
+        <label for="masc">Masculino</label>
+        <input type="radio" name="radsex" id="fem">
+        <label for="fem">Feminino</label>
+           </p>
+    <p> País de Origem: 
+        <input type="text" name="pais" id="pais">
+
+    </p>
+    <p>
+        Escolaridade:
+        <select name="escola" id="escola">
+            <option value='Analfabeto'> Analfabeto</option>            
+            <option value='Primeiro Grau Incompleto'> Primeiro Grau Incompleto</option>
+            <option value='Primeiro Grau Completo'> Primeiro Grau Completo</option>
+            <option value='Segundo Grau Incompleto'> Segundo Grau Incompleto</option>
+            <option value='Segundo Grau Completo'> Segundo Grau Completo</option>
+            <option value='Superior Incompleto'> Superior Incompleto</option>
+            <option value='Superior Completo'> Superior Completo</option>
+        </select>
+    </p>
+    <input type="button" value="OK" onclick='calcular()'>
+    </div>
+    <footer>
+        <p>&copy;OSG1982</p>
+    </footer>
+    <script src ='./scripts/scripts.js'></script>
+</body>
+</html>
