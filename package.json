@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/oldschoolgamer1982/1stbackend/issues"
   },
-  "homepage": "https://github.com/oldschoolgamer1982/1stbackend#readme",
+  "homepage": "https://oldschoolgamer1982.github.io/1stbackend/",
   "devDependencies": {
     "nodemon": "^2.0.6"
   },
